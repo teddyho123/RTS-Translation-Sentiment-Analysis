@@ -1,5 +1,7 @@
 # Translation and Sentiment RTS Project
 
+python -m venv venv
+
 Activate virtual environment first:
 - .\venv\Scripts\Activate
 
