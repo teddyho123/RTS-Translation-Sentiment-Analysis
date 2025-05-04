@@ -1,8 +1,9 @@
 # Translation and Sentiment RTS Project
 
-python -m venv venv
+Install venv:
+- python -m venv venv
 
-Activate virtual environment first:
+Activate virtual environment:
 - .\venv\Scripts\Activate
 
 Install required packages:
