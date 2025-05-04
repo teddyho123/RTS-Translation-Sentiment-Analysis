@@ -64,4 +64,12 @@ if st.button("Record & Translate"):
             st.rerun()
 
 st.markdown("---")
+st.subheader("Type Your Own Text for Sentiment Analysis")
+text_input = st.text_area("Enter your text:")
+if st.button("Analyze Sentiment"):
+    if text_input.strip():
+        sentiment = analyze_sentiment(text_input)
+        st.write("**Sentiment:**", sentiment)
+    else:
+        st.warning("Please enter some text before analyzing.")
 st.caption("This is a simple demonstration of ASR, language detection, sentiment analysis, translation, and TTS.")
